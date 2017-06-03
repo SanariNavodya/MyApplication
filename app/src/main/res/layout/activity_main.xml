@@ -22,8 +22,8 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="358dp"
-        android:layout_height="41dp"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
@@ -32,21 +32,20 @@
         android:text="Enter the amount in Sri Lankan Rupee :"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.311"
+        tools:layout_editor_absoluteY="248dp" />
 
     <EditText
         android:id="@+id/DField"
         android:layout_width="311dp"
         android:layout_height="48dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="0dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintHorizontal_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <Button
         android:id="@+id/button"
